@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Frontend Mentor - FAQ Accordion</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="top-background"></div>
+        <div class="faq-card-wrapping">
+        <div class="faq-card">
+            <div class="heading">
+                <span class="icon-title"><img src="assets/images/icon-star.svg"></span>
+                <h1 class="h1-title">FAQs</h1>
+            </div>
+            <section class="dropdown-section">
+                <div class="question-wrapper">
+                    <p class="question-dropdown">What is Frontend Mentor, and how will it help me?</p>
+                    <button onclick="openDropdown()" class="plus-icon active" id="+plus-icon">
+                        <img src="assets/images/icon-plus.svg">
+                    </button>
+                    <button onclick="closeDropdown()" class="minus-icon deactivated" id="min-icon">
+                        <img src="assets/images/icon-minus.svg">
+                    </button>
+                </div>
+                <p class="dropdown-answer" id="answer-dropdown">
+                    Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding
+                    skills with projects in HTML, CSS and JavaScript. It's suitable for all levels and ideal for
+                    portfolio building.
+                </p>
+            </section>
+          <section class="dropdown-section">
+            <div class="question-wrapper">
+              <p class="question-dropdown">Is Frontend Mentor free?</p>
+                <button class="plus-icon active">
+                    <img src="assets/images/icon-plus.svg">
+                </button>
+                <button class="minus-icon deactivated">
+                    <img src="assets/images/icon-minus.svg">
+                </button>
+            </div>
+            <p class="dropdown-answer">
+              Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding
+              skills with projects in HTML, CSS and JavaScript. It's suitable for all levels and ideal for
+              portfolio building.
+            </p>
+          </section>
+          <section class="dropdown-section">
+            <div class="question-wrapper">
+              <p class="question-dropdown">Can I use Frontend Mentor projects in my portfolio?</p>
+                <button class="plus-icon active">
+                    <img src="assets/images/icon-plus.svg">
+                </button>
+                <button class="minus-icon deactivated">
+                    <img src="assets/images/icon-minus.svg">
+                </button>
+            </div>
+            <p class="dropdown-answer">
+              Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding
+              skills with projects in HTML, CSS and JavaScript. It's suitable for all levels and ideal for
+              portfolio building.
+            </p>
+          </section>
+          <section class="dropdown-section">
+            <div class="question-wrapper">
+              <p class="question-dropdown">How can I get help if I'm stuck on a challenge?</p>
+                <button class="plus-icon active">
+                    <img src="assets/images/icon-plus.svg">
+                </button>
+                <button class="minus-icon deactivated">
+                    <img src="assets/images/icon-minus.svg">
+                </button>
+            </div>
+            <p class="dropdown-answer">
+              Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding
+              skills with projects in HTML, CSS and JavaScript. It's suitable for all levels and ideal for
+              portfolio building.
+            </p>
+          </section>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
